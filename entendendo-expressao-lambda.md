@@ -16,15 +16,23 @@ São exemplos de expressão lambda:
 
 ### Exemplo sem lambda
 
+```
 System.out.println("Imprime todos os elementos da lista!"); 
 List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9); 
 for(Integer n: list) { System.out.println(n); }
+```
+
+
 
 ### Exemplo com lambda
 
+```
 System.out.println("Imprime todos os elementos da lista!");
  List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
  list.forEach(n-> System.out.println(n));
+```
+
+**Leitura do código**
 
 no exemplo acima podemos ver duas formas de se escrever uma listagem com números, esses números estão passando pela estrutura de escrita na tela:
 
