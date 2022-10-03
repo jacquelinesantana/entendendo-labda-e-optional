@@ -3,3 +3,4 @@ Esse material destina-se a quem esta estudando linguagem de programação Java e
 
 Conceitos de expressão lambda com exemplos -> [Link Material](https://github.com/jacquelinesantana/entendendo-labda-e-optional/blob/main/entendendo-expressao-lambda.md)
 
+Conceitos de optional com exemplos -> [Link Material](https://github.com/jacquelinesantana/entendendo-labda-e-optional/blob/main/optional.md)
