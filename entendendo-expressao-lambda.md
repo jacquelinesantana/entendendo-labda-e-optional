@@ -88,3 +88,7 @@ List<Integer> astolfo = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
 6. Fecha o if
 7. Termina a expressão lambda
    Quem é a expressão lambda? **n -> { if (n % 2 == 0) { System.out.println(n); }** 
+
+Prática para Lambda ->  [Link Código](https://github.com/jacquelinesantana/entendendo-labda-e-optional/blob/main/pratica/Lambda-e-Optional/src/atividades/LambdaAtividade.java)
+
+[Voltar](https://github.com/jacquelinesantana/entendendo-labda-e-optional#readme)

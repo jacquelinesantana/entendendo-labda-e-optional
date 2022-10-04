@@ -4,7 +4,7 @@ A principal proposta deste recurso é encapsular o retorno de métodos e informa
 Com isso é possível:
 
 1. Evitar erros NullPointerException.
-2. Parar de fazer verificações de valor nulo do tipo if (cliente != null).
+2. Parar de fazer verificações de valor nulo do tipo if (cliente != null). Aqui é o erro causado quando o objeto não tem nenhum registro por exemplo.
 3. Escrever código mais limpo e elegante.
 
 ## O que podemos fazer com Optional?
@@ -18,7 +18,7 @@ Com isso é possível:
 
 ## OF
 
-É possível criar uma instância de Optional com valor através do método of. Ou seja, conseguimos definir o valor do Optional, entenda que para passar um valor para dentro de uma estrutura optional não deve-se apenas atribuir com o sinal de (=) igual, e sim incluir o valor com o método of.
+É possível criar uma instância de Optional com valor através do método of. Ou seja, conseguimos definir o valor do Optional, entenda que para passar um valor para dentro de uma estrutura Optional não deve-se apenas atribuir com o sinal de (=) igual, e sim incluir o valor com o método of.
 
 ```
 //para um optional utilizamos 
@@ -75,3 +75,8 @@ private static String B() {
 
 ```
 
+Prática para Optional 1  ->  [Link Código](https://github.com/jacquelinesantana/entendendo-labda-e-optional/blob/main/pratica/Lambda-e-Optional/src/atividades/OptionalAtividade.java)
+
+Prática para Optional 2  ->  [Link Código](https://github.com/jacquelinesantana/entendendo-labda-e-optional/blob/main/pratica/Lambda-e-Optional/src/atividades/OptionalAtividade2.java)
+
+[Voltar](https://github.com/jacquelinesantana/entendendo-labda-e-optional#readme)
