@@ -64,8 +64,9 @@ Atua como o caso contrário de uma estrutura de decisão, retorna o valor defini
 ```
 
 public static void main(String args[]) {
-	//o optional Empty é para o objeto retornar vazio com ele conseguimos colocar em prática o orElse() que executa o B 					System.out.println(Optional.empty().orElse(B())); 
+	//o optional Empty é para o objeto retornar vazio com ele conseguimos colocar em prática o orElse() que executa o B 					 
 	//orElse só executa quando não houver valores para o optional
+	System.out.println(Optional.empty().orElse(B()));
 } 
 private static String B() { 
 	String x = "Optional no java"; 
