@@ -18,7 +18,7 @@ Com isso é possível:
 
 ## OF
 
-É possível criar uma instância de Optional com valor através do método of
+É possível criar uma instância de Optional com valor através do método of. Ou seja, conseguimos definir o valor do Optional, entenda que para passar um valor para dentro de uma estrutura optional não deve-se apenas atribuir com o sinal de (=) igual, e sim incluir o valor com o método of.
 
 ```
 //para um optional utilizamos 
@@ -35,5 +35,42 @@ Optional<String> xz1 = Optional.of("Somos todes Devs");
 Optional<String> xz1 = Optional.of("Somos todes Devs");
 String frase = xz1.get() ;
 System.out.println(xz1.get() );
+```
+
+## Empty
+
+É possível indicar que uma instância de Optional tem valor vazio. 
+
+```
+String teste = Optional.empty()
+```
+
+
+
+## Map
+
+É possível alterar/afetar um Stream com map. Por hora entenda Stream como sendo um formato de organizar dados.
+
+```
+IntStream.range(0, 4) // stream de 0 a 3 é uma sequencia de números de 0 a 3
+ .map(e -> e * 2) // multiplica os elementos por 2  0*2, 1*2, 2*2... 
+.forEach(System.out::println);//axibe os valores da multiplicação
+```
+
+## OrElse
+
+Atua como o caso contrário de uma estrutura de decisão, retorna o valor definido no parâmetro. Para o código abaixo o Optional texto foi definido como empty, ou seja, sem um valor então o orElse vai assumir retornando seu valor como B();
+
+```
+
+public static void main(String args[]) {
+	//o optional Empty é para o objeto retornar vazio com ele conseguimos colocar em prática o orElse() que executa o B 					System.out.println(Optional.empty().orElse(B())); 
+	//orElse só executa quando não houver valores para o optional
+} 
+private static String B() { 
+	String x = "Optional no java"; 
+	return x; 
+} 
+
 ```
 
